@@ -26,7 +26,7 @@
         </nav>
         
         <!-- it is the drop down menu in obile view  -->
-        
+
         <ul class="hidden flex-col  " id="menu">
             <li class="text-center"><a href="#" class="text-black">What we do</a></li>
             <li class="text-center"><a href="#" class="text-black">About</a></li>
@@ -34,6 +34,71 @@
             <button class="rounded-full text-white navBt w-36 h-8 container mx-auto">Get a quote</button>
         </ul>
 
+        
+    <!-- section1  part code  -->
+      
+    <!-- desktop viewport             -->
+
+    <div class="banner md:container md:mx-auto  md:grid hidden md:grid-cols-2 md:gap-4 ">
+        <div class="place-self-center">
+            <div class=" ">
+                <div class=""> <h1 class="font-sans  md:text-3xl text-base font-medium " style="color: #2078FC;">HIPPATEXTS</h1></div>
+                <div class=""> <h1 class="font-sans  md:text-4xl lg:text-5xl text-2xl font-semibold md:font-bold "><strong>eliminate patient</strong></h1></div>
+                <div class=""> <h1 class="font-sans  md:text-4xl lg:text-5xl text-2xl font-semibold md:font-bold "><strong>no-shows once</strong></h1></div>
+                <div class=""> <h1 class="font-sans  md:text-4xl lg:text-5xl text-2xl font-semibold md:font-bold "><strong>and for all</strong></h1></div>
+                <div class=""> We’ve got your back. We’ll remind you on time</div>
+                
+            </div> 
+            <div class="mt-4">
+                <button class="rounded-full text-white navBt w-36 h-12 ">Get a quote</button>
+          </div> 
+          </div>
+       <img src="/images/Group 18.png" alt="" class=" "> 
+
     </div>
+
+    <!-- mobile view  code for section1 banner-->
+
+       <div class="banner grid grid-rows-2 md:hidden gap-1">
+        <img src="/images/Group 18.png" alt="" class=" container mx-auto">
+        <div class="place-self-center">
+            <div class=" ">
+                <div class=""> <h1 class="font-sans  md:text-3xl text-base font-medium" style="color: #2078FC;">HIPPATEXTS</h1></div>
+                <div class=""> <h1 class="font-sans  md:text-4xl lg:text-5xl text-2xl font-semibold md:font-bold "><strong>eliminate patient</strong></h1></div>
+                <div class=""> <h1 class="font-sans  md:text-4xl lg:text-5xl text-2xl font-semibold md:font-bold "><strong>no-shows once</strong></h1></div>
+                <div class=""> <h1 class="font-sans  md:text-4xl lg:text-5xl text-2xl font-semibold md:font-bold "><strong>and for all</strong></h1></div>
+                <div class=""> We’ve got your back. We’ll remind you on time</div>
+                
+            </div> 
+            <div class="mt-4">
+                <button class="rounded-full text-white navBt w-36 h-12 ">Get a quote</button>
+          </div> 
+          </div>
+      
+       </div>
+
+
+    </div>
+
+
+
+
+                <!-- javascript funtion for dropdown menu button  -->
+
+
+                
+    <script>
+        function menu(){
+            let x= document.querySelector('#menu');
+            if(x.classList.contains('hidden')){
+                x.classList.remove('hidden');
+                x.classList.add('flex');
+            }
+            else{
+                x.classList.remove('flex');
+                x.classList.add('hidden');
+            }
+        }
+    </script>
 </body>
 </html>
