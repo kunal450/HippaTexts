@@ -1,0 +1,12 @@
+.upbody{
+    top: 0px;
+    left: 0px;
+    
+    background: transparent linear-gradient(180deg, #D5E6FF 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    }
+    .navBt{
+        background: transparent linear-gradient(79deg, #1A75FC 0%, #0D3B7E 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 33px;
+        }

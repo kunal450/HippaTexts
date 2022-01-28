@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HippaTexts</title>
+     <!-- css framework tailwindcss is used here  -->
+    <script src="https://cdn.tailwindcss.com"></script> 
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2d5e9327f1.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+    <div class="upbody">
+         
+        <!-- navbar code writte here  -->
+        <nav class="flex  md:flex-row lg:flex-row  justify-between  p-3">
+            <div class="text-lg"><strong class="text-lg">HIPAA</strong>TEXTS.COM</div>
+            <button class="not-sr-only sm:sr-only text-black text-lg" onclick="menu()"><i class="fas fa-bars"></i></button>
+            <ul class="hidden md:flex md:flex-row md:space-x-6 ">
+                <li><a href="#" class="text-black">What we do</a></li>
+                <li><a href="#" class="text-black">About</a></li>
+                <li><a href="#" class="text-black">Pricing</a></li>
+                <button class="rounded-full text-white navBt w-36 h-8 ">Get a quote</button>
+            </ul>
+        </nav>
+        
+        <!-- it is the drop down menu in obile view  -->
+        
+        <ul class="hidden flex-col  " id="menu">
+            <li class="text-center"><a href="#" class="text-black">What we do</a></li>
+            <li class="text-center"><a href="#" class="text-black">About</a></li>
+            <li class="text-center"><a href="#" class="text-black">Pricing</a></li>
+            <button class="rounded-full text-white navBt w-36 h-8 container mx-auto">Get a quote</button>
+        </ul>
+
+    </div>
+</body>
+</html>
